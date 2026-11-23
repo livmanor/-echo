@@ -14,13 +14,13 @@ import type {
 
 const API_BASE = (import.meta.env.VITE_API_URL ?? 'http://127.0.0.1:8000') + '/api';
 
-let officer = 'DSP R. Sharma';
+let officer = 'DySP, Cyber Cell';
 let role = 'Investigator';
 
 export function setActor(nextRole: string) {
   role = nextRole;
   officer =
-    nextRole === 'Analyst' ? 'P. Kaur' : nextRole === 'Administrator' ? 'Admin-01' : 'DSP R. Sharma';
+    nextRole === 'Analyst' ? 'Intelligence Analyst' : nextRole === 'Administrator' ? 'Systems Admin' : 'DySP, Cyber Cell';
 }
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {

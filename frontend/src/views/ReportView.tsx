@@ -48,7 +48,7 @@ export function ReportView({ alertId }: { alertId: string | null }) {
         <article className="bg-white text-slate-900 rounded-lg p-8 print:p-0 print:rounded-none">
           <div className="flex items-start justify-between gap-4 border-b border-slate-200 pb-4">
             <div>
-              <div className="text-[11px] tracking-[0.16em] uppercase text-slate-500">ECHO · PS02 evidence snapshot</div>
+              <div className="text-[11px] tracking-[0.16em] uppercase text-slate-500">ECHO · Rajasthan Police evidence snapshot</div>
               <h2 className="text-xl font-semibold mt-1">{categoryLabel(alert.category)}</h2>
               <p className="text-sm text-slate-600 mt-1">{alert.channel_title} · {alert.platform}</p>
             </div>

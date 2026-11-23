@@ -2,7 +2,7 @@
 title ECHO Trade Monitor Launcher
 echo ========================================================
 echo    ECHO | Public Channel Illegal Trade Monitor
-echo    PS02 Telegram and social-media advertisements
+echo    Rajasthan Police · Telegram and social-media advertisements
 echo ========================================================
 
 echo Starting FastAPI Backend (Port 8000)...

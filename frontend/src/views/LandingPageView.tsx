@@ -37,13 +37,13 @@ export function LandingPageView({ onNavigate }: { onNavigate: (view: string) => 
       <header className="relative z-10 flex items-center justify-between px-8 py-5 text-[11px] font-mono text-slate-500">
         <div className="flex items-center gap-2">
           <Shield className="w-4 h-4 text-cyan-400" />
-          ECHO · CHANDIGARH POLICE HACKATHON
+          ECHO · RAJASTHAN POLICE
         </div>
         <div>{time.toLocaleString('en-IN')}</div>
       </header>
       <main className="relative z-10 flex-1 grid lg:grid-cols-2 gap-10 items-center px-8 pb-16 max-w-6xl mx-auto w-full">
         <div>
-          <div className="text-[11px] font-mono tracking-[0.18em] text-cyan-400 uppercase">PS02 · Narcotics / Financial fraud</div>
+          <div className="text-[11px] font-mono tracking-[0.18em] text-cyan-400 uppercase">Rajasthan Police · Narcotics / Financial fraud</div>
           <h1 className="text-4xl font-semibold tracking-tight mt-3 leading-tight">
             Telegram and social media illegal trade monitor
           </h1>

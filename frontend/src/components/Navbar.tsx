@@ -28,7 +28,7 @@ export function Navbar({ stats, role, onRoleChange, query, onQuery, onSearch, on
         </div>
         <div className="leading-tight text-left">
           <div className="text-[13px] font-semibold tracking-[0.08em] text-slate-100 font-mono">ECHO</div>
-          <div className="text-[10px] text-slate-500 hidden sm:block">Illegal trade monitor · public channels</div>
+          <div className="text-[10px] text-slate-500 hidden sm:block">Rajasthan Police · public channels</div>
         </div>
       </button>
       <div className={`hidden lg:flex items-center gap-2 px-3 py-1.5 rounded border text-[11px] font-mono ${tone}`}>
@@ -59,9 +59,9 @@ export function Navbar({ stats, role, onRoleChange, query, onQuery, onSearch, on
           onChange={(event) => onRoleChange(event.target.value)}
           className="bg-white/[0.03] border border-white/[0.07] text-slate-300 text-[11px] font-mono rounded px-2 py-1.5"
         >
-          <option value="Investigator">DSP R. Sharma</option>
-          <option value="Analyst">Analyst P. Kaur</option>
-          <option value="Administrator">Admin-01</option>
+          <option value="Investigator">DySP, Cyber Cell</option>
+          <option value="Analyst">Intelligence Analyst</option>
+          <option value="Administrator">Systems Admin</option>
         </select>
         <button
           onClick={() => onNavigate('landing')}

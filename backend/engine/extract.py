@@ -13,7 +13,7 @@ ACCOUNT_RE = re.compile(r"(?<!\d)(\d{9,18})(?!\d)")
 LOC_RES = [
     re.compile(r"sector\s*-?\s*\d{1,3}", re.I),
     re.compile(
-        r"\b(chandigarh|mohali|panchkula|zirakpur|manimajra|elante|kharar|derabassi|tricity|tri-city)\b",
+        r"\b(jaipur|jodhpur|udaipur|ajmer|kota|vaishali nagar|mi road)\b",
         re.I,
     ),
 ]

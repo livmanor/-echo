@@ -25,7 +25,7 @@ from sample_corpus import CHANNELS, corpus_posts
 
 app = FastAPI(
     title="ECHO Public Channel Trade Monitor",
-    description="OSINT dashboard for public Telegram and social-media advertisements. Synthetic demo data only.",
+    description="Rajasthan Police OSINT dashboard for public Telegram and social-media advertisements. Synthetic demo data only.",
     version="2.0.0",
 )
 app.add_middleware(
@@ -58,7 +58,7 @@ def startup():
 
 
 def actor(officer: Optional[str], role: Optional[str]):
-    return (officer or "DSP R. Sharma", role or "Investigator")
+    return (officer or "DySP, Cyber Cell", role or "Investigator")
 
 
 def _identifiers_for(conn, post_ids):
@@ -401,7 +401,7 @@ def sample_reset(
 @app.get("/api/sample.json")
 def sample_json():
     return {
-        "notice": "Synthetic posts for the hackathon demo. Do not add real personal data.",
+        "notice": "Synthetic posts for the Rajasthan Police demo. Do not add real personal data.",
         "channels": CHANNELS,
         "posts": corpus_posts(),
     }

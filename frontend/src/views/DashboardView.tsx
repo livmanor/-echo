@@ -43,7 +43,7 @@ export function DashboardView({ onOpenAlert }: { onOpenAlert: (id: string) => vo
   return (
     <div className="max-w-7xl mx-auto">
       <PageHeader
-        eyebrow="PS02 · Public channels"
+        eyebrow="Rajasthan Police · Public channels"
         title="Trade monitor"
         subtitle="Classified advertisements from public Telegram channels and imported social posts. Sample data is synthetic."
       />
