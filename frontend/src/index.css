@@ -97,3 +97,9 @@
   position: relative;
   background-color: #06090F;
 }
+
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  main { padding: 0 !important; overflow: visible !important; }
+}
